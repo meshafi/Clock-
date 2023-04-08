@@ -1,0 +1,35 @@
+.classContainer{
+    position: relative;
+    height:40vw;
+    width:40vw;
+    margin:auto;
+    background-color: red;
+    background: url(clock.png);
+    background-size: cover;
+}
+
+#hour,#min,#sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour {
+    top: 29.56%;
+    left: 48.9%;
+    height: 21%;
+    width: 2%;
+}
+#min {
+    top: 19%;
+    left: 48.9%;
+    height: 31%;
+    width: 1.6%;
+}
+#sec {
+    top: 14%;
+    left: 48.95%;
+    height: 36%;
+    width: 1%;
+}
+
